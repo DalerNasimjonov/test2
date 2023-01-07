@@ -1,0 +1,213 @@
+@media only screen and (max-width:920px) {
+
+    .logo img {
+        width: 80%;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    nav ul li .tochka {
+        width: 2px;
+        height: 2px;
+    }
+
+    nav ul {
+        gap: 8%;
+        margin-right: 4%;
+    }
+
+    nav button:nth-child(3) {
+        width: 120px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 50.2728px;
+        margin: 0;
+    }
+
+    h1 .about {
+        width: 240px;
+        height: 80px;
+
+    }
+
+    .card_title p {
+        font-size: 30px;
+
+    }
+
+    .line {
+        width: 50px;
+    }
+
+    .info p {
+        font-size: 16px;
+    }
+
+    .icon {
+        width: 55px;
+        height: 55px;
+    }
+
+    .icon img {
+        width: 40px;
+    }
+
+    .show .info {
+        width: 350px;
+        gap: 0;
+    }
+
+    .show_img {
+        width: 100%;
+    }
+
+    .show_img img {
+        width: 100%;
+    }
+
+    /* .foot_cent p,
+    .foot_right p {
+        font-size: 10px;
+    }
+
+    .foot_right a {
+        font-size: 12px;
+    }
+
+    .ic2 {
+        width: 16px;
+        height: 16px;
+    }
+
+    .ic2 i {
+        font-size: 10px;
+    } */
+}
+
+/* ////////////////////////////////////////////////////// */
+
+@media only screen and (max-width:700px) {
+
+    .show_h1{
+        width: 90%;
+    }
+
+   
+
+    .show .info {
+        width: 100%;
+        gap: 0;
+    }
+
+    nav .logo{
+        width: 50%;
+    }
+
+    nav ul li a {
+        display: none;
+    }
+
+    nav ul li:nth-child(2) .tochka {
+        display: none;
+    }
+
+    nav button:nth-child(3) {
+        display: none;
+    }
+
+    nav button:nth-child(4) {
+        display: block;
+        background-color: transparent;
+        border: 0;
+    }
+
+    nav button:nth-child(4) i {
+        font-size: 30px;
+    }
+
+    .show {
+        display: grid;
+        grid-template-areas:
+            "h1"
+            "img1"
+            "card1";
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card_title:first-child  {
+        width: 80%;
+        display: flex;
+        justify-content: end;
+
+    }
+
+    .card_title{
+        width: 50%;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foot{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .foot_left{
+        grid-area: foot_left;
+    }
+    .foot_cent{
+        grid-area: foot_cent;
+    }
+    .foot_right{
+        grid-area: foot_right;
+    }
+
+    .foot p{
+        width: 100%;
+    }
+
+    .ic_Y{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .ic_Y i {
+        color:  #2ACC32;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+    .card2{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:250px) {
+    h1 p {
+        font-size: 25px;
+    }
+
+    h1 .about{
+        width: 100%;
+        height: 100%;
+        background-position: center right;
+    }
+    
+}
